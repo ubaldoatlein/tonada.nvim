@@ -179,11 +179,10 @@ M.groups = {
   "@structure",                           { link = "Structure"},
   "@namespace",                           { link = "Identifier"},
   "@include",                             { link = "Include"},
-  --CPP
-  --"@preproc",                           {},
-  --"@debug",                             {},
-  --"@tag",                               {},
-  "@lsp.mod.constructorOrDestructor",     { bg = colors.NONE, fg = colors.pastel_gray },
+  -- HTML
+  "@tag.html",                            { bg = colors.NONE, fg = colors.pastel_gray },
+  "@tag.delimiter.html",                  { bg = colors.NONE, fg = colors.red },
+  "@tag.attribute.html",                  { bg = colors.NONE, fg = colors.lavender },
   --********************
   -- NVIM-TREE
   --********************
