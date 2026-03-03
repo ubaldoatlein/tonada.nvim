@@ -101,7 +101,7 @@ M.groups = {
   "Typedef",                              { bg = colors.NONE, fg = colors.white_chocolate },
   "Special",                              { bg = colors.NONE, fg = colors.gainsboro },
   "SpecialChar",                          { bg = colors.NONE, fg = colors.gentle_blue },
-  "Tag",                                  { bg = colors.NONE, fg = colors.weldon },
+  "Tag",                                  { bg = colors.NONE, fg = colors.pastel_gray },
   -- Delimiter                            {},
   -- SpecialComment                       {},
   -- Debug                                {},
@@ -179,6 +179,9 @@ M.groups = {
   "@structure",                           { link = "Structure"},
   "@namespace",                           { link = "Identifier"},
   "@include",                             { link = "Include"},
+  -- LUA
+  "@lsp.type.property.lua",               { bg = colors.NONE, fg = colors.lavender },
+  "@constructor.lua",                     { bg = colors.NONE, fg = colors.red },
   -- HTML
   "@tag.html",                            { bg = colors.NONE, fg = colors.pastel_gray },
   "@tag.delimiter.html",                  { bg = colors.NONE, fg = colors.red },
